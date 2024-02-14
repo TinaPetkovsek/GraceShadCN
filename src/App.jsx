@@ -108,31 +108,63 @@ export default function App() {
             </div>
           </TabsContent>
           <TabsContent value="sadje">
-            <Card>
-              <CardHeader>
-                <CardTitle>Jabolko</CardTitle>
-                <CardDescription>
-                  Jabolko je sadež, ki raste na drevesu jablani.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <img
-                  className="mb-1 rounded-sm"
-                  src="https://images.24ur.com/media/images/1500x1000/Sep2018/5596538d40_62127999.jpg?v=d41d"
-                ></img>
-                <CardDescription>
-                  Spada med kulturne rastline, ki jih je vzgojil človek s
-                  pomočjo križanja. Korenine jabolka izvirajo iz Azije. V Evropo
-                  je verjetno prispelo s trgovci. Obstaja več kot 7500
-                  kultivarjev jabolk. Jabolko zraste iz pet-listnega cveta.
-                </CardDescription>
-              </CardContent>
-              <CardFooter>
-                <a href="https://sl.wikipedia.org/wiki/Jabolko">
-                  <Button className="w-full">Več o jabolku</Button>
-                </a>
-              </CardFooter>
-            </Card>
+            <div className="grid grid-cols-3 gap-2">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Jabolko</CardTitle>
+                  <CardDescription>
+                    Jabolko je sadež, ki raste na drevesu jablani.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <img
+                    className="mb-1 rounded-sm"
+                    src="https://images.24ur.com/media/images/1500x1000/Sep2018/5596538d40_62127999.jpg?v=d41d"
+                  ></img>
+                  <CardDescription>
+                    Spada med kulturne rastline, ki jih je vzgojil človek s
+                    pomočjo križanja. Korenine jabolka izvirajo iz Azije. V
+                    Evropo je verjetno prispelo s trgovci. Obstaja več kot 7500
+                    kultivarjev jabolk. Jabolko zraste iz pet-listnega cveta.
+                  </CardDescription>
+                </CardContent>
+                <CardFooter>
+                  <a href="https://sl.wikipedia.org/wiki/Jabolko">
+                    <Button className="w-full">Več o jabolku</Button>
+                  </a>
+                </CardFooter>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Banana</CardTitle>
+                  <CardDescription>
+                    Banana je užiten sadež, plod različnih vrst zelnatih rastlin
+                    iz roda Musa in je lahko različnih barv, velikosti in
+                    trdnosti.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <img
+                    className="mb-1 rounded-sm"
+                    src="https://images.24ur.com/media/images/884xX/Jun2008/60148579.jpg?v=d41d"
+                  ></img>
+                  <CardDescription>
+                    Botanično je jagoda. Običajno je podolgovata in ukrivljena,
+                    z mehkim škrobnatim mesom, pokritim z zelenim, rumenim,
+                    rdečim ali vijoličnim olupkom, ki ob zrelosti porjavi.
+                    Sadeži v šopih visijo z drevesa. Skoraj vse moderne jedilne
+                    partenokarpne -brez semen- banane izhajajo iz dveh divjih
+                    vrst - Musa acuminata in Musa balbisiana.
+                  </CardDescription>
+                </CardContent>
+                <CardFooter>
+                  <a href="https://sl.wikipedia.org/wiki/Banana">
+                    <Button className="w-full">Več o banani</Button>
+                  </a>
+                </CardFooter>
+              </Card>
+            </div>
           </TabsContent>
         </Tabs>
       </div>
